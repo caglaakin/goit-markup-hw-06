@@ -292,7 +292,7 @@ a.menu-list-add:focus {
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 70%),
             rgba(46, 47, 66, 70%)),
-        url("/images/people-office1.jpg");
+        url("/images/people-office-mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -925,6 +925,15 @@ button.order-button:focus {
     background-color: #404BBF;
 }
 
+@media screen and (min-resolution: 2x){
+    .section-entrance {
+            background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 70%),
+                    rgba(46, 47, 66, 70%)),
+                url("/images/people-office-mobile@2x.jpg");
+        }
+}
+
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 1157px){
     .body{
@@ -961,13 +970,14 @@ button.order-button:focus {
     .header-add-list{
         flex-direction: column;
         gap: 12px;
+        padding: 16px 0;
     }
     
     .section-entrance {
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 70%),
             rgba(46, 47, 66, 70%)),
-            url("/images/people-office.jpg");
+            url("/images/poeple-office-tablet.jpg");
     }
 
     .features-list {
@@ -1035,6 +1045,15 @@ button.order-button:focus {
     }
 }
 
+@media screen and (min-width: 768px) and (min-resolution: 2x){
+    .section-entrance {
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 70%),
+                rgba(46, 47, 66, 70%)),
+            url("/images/people-office-tablet@2x.jpg");
+    }
+}
+
 /*Web*/
 @media screen and (min-width: 1158px){
     .burger{
@@ -1069,7 +1088,7 @@ button.order-button:focus {
         background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 70%),
             rgba(46, 47, 66, 70%)),
-            url("/images/people-office@2x.jpg");
+            url("/images/people-office-desktop.jpg");
     }
 
     .features-list {
@@ -1147,6 +1166,13 @@ button.order-button:focus {
         width: 408px;
         min-height: 584px;
     }
+}
 
-
+@media screen and (min-width: 1158px) and (min-resolution: 2x) {
+    .section-entrance {
+            background-image: linear-gradient(to bottom,
+                    rgba(46, 47, 66, 70%),
+                    rgba(46, 47, 66, 70%)),
+                url("/images/people-office-desktop@2x.jpg");
+        }
 }
