@@ -15,6 +15,7 @@ body {
     letter-spacing: 0.02em;
     background-color: #FFFFFF;
     color: #434455;
+    overflow-x: hidden;
 }
 
 .header-three {
@@ -72,6 +73,7 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+
 }
 
 .header-nav{
@@ -80,7 +82,7 @@ header{
 }
 
 .header-nav .logo{
-    margin-right: 76px;
+    margin: 0 auto;
     padding: 16px 0;
 }
 
@@ -199,6 +201,7 @@ a.menu-list-add:focus {
     max-width: 320px;
     position: relative;
     margin: 0 auto;
+    padding-left: 16px;
 }
 
 .mobile-menu-close{
@@ -227,6 +230,7 @@ a.menu-list-add:focus {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    padding-inline-start: 0;
 }
 
 .mobile-nav-link{
@@ -247,6 +251,7 @@ a.menu-list-add:focus {
     display: flex;
     flex-direction: column-reverse;
     gap: 24px;
+    padding-inline-start: 0;
 }
 
 .mobile-add-link{
@@ -267,6 +272,7 @@ a.menu-list-add:focus {
     gap: 40px;
     margin-bottom: 40px;
     padding-inline-start: 0;
+    padding: 0;
 }
 
 .mobile-social-list-item{
@@ -936,10 +942,6 @@ button.order-button:focus {
 
 /*Tablet*/
 @media screen and (min-width: 768px) and (max-width: 1157px){
-    .body{
-        overflow-y: hidden;
-    }
-    
     .burger{
         display: none;
     }
