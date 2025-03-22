@@ -16,13 +16,13 @@ document.addEventListener("DOMContentLoaded", function () {
     // Modal işlevselliği
   const orderServiceButton = document.querySelector("modalOpen");
   const closeModalButton = document.getElementById("close-btn");
-  const modalOverlay = document.getElementById("backdrop");
+  const backdrop = document.getElementById("backdrop");
 
-    orderServiceButton.addEventListener("click", function () {
-    modalOverlay.classList.add("is-open");
+  orderServiceButton.addEventListener("click", function () {
+    backdrop.classList.add("is-open");
   });
 
   closeModalButton.addEventListener("click", function () {
-    modalOverlay.classList.remove("is-open");
+    backdrop.classList.remove("is-open");
   });
 });
