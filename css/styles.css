@@ -306,7 +306,7 @@ a.menu-list-add:focus {
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 70%),
             rgba(46, 47, 66, 70%)),
-        url("./images/people-office-mobile.jpg");
+        url("../images/people-office-mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -945,7 +945,7 @@ button.order-button:focus {
             background-image: linear-gradient(to bottom,
                     rgba(46, 47, 66, 70%),
                     rgba(46, 47, 66, 70%)),
-                url("./images/people-office-mobile@2x.jpg");
+                url("../images/people-office-mobile@2x.jpg");
         }
 }
 
@@ -988,7 +988,7 @@ button.order-button:focus {
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 70%),
             rgba(46, 47, 66, 70%)),
-            url("./images/poeple-office-tablet.jpg");
+            url("../images/poeple-office-tablet.jpg");
     }
 
     .features-list {
@@ -1061,7 +1061,7 @@ button.order-button:focus {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 70%),
                 rgba(46, 47, 66, 70%)),
-            url("./images/people-office-tablet@2x.jpg");
+            url("../images/people-office-tablet@2x.jpg");
     }
 }
 
@@ -1099,7 +1099,7 @@ button.order-button:focus {
         background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 70%),
             rgba(46, 47, 66, 70%)),
-            url("./images/people-office-desktop.jpg");
+            url("../images/people-office-desktop.jpg");
     }
 
     .features-list {
@@ -1184,6 +1184,6 @@ button.order-button:focus {
             background-image: linear-gradient(to bottom,
                     rgba(46, 47, 66, 70%),
                     rgba(46, 47, 66, 70%)),
-                url("./images/people-office-desktop@2x.jpg");
+                url("../images/people-office-desktop@2x.jpg");
         }
 }
